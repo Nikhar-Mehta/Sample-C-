@@ -5,6 +5,7 @@
 
 #include "Rectangle.hpp"
 
+//added a comment
 // Constructor for Rectangle
 Rectangle::Rectangle(int height, int width): Polygon(height, width) {}
 
