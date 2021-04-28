@@ -8,6 +8,10 @@
 // Constructor for Triangle
 Triangle::Triangle(int height, int width): Polygon(height, width) {}
 
+int x; 
+cout << "Type a number: "; // Type a number and press enter
+cin >> x; // Get user input from the keyboard
+cout << "Your number is: " << x; // Display the input value
 // Destructor
 Triangle::~Triangle() {}
 
